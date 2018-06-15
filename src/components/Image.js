@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export class Image extends Component {  
     render() {
       return (        
-        <article >
+        <article>
             <div id="img-div" className="flex-container">
                 <img id="image" className="flex-item" src="./images/BillMelinda1.jpg" alt="Bill and Melinda Gates in Africa"/>
                 <div id="img-caption" className="flex-item">
@@ -16,3 +16,5 @@ export class Image extends Component {
       );
     }
 }
+
+export default Image;

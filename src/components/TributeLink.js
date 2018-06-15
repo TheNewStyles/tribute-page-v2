@@ -11,3 +11,5 @@ export class TributeLink extends Component {
       );
     }
 }
+
+export default TributeLink;

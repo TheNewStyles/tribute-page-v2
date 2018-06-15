@@ -31,3 +31,5 @@ export class TributeInfo extends Component {
       );
     }
 }
+
+export default TributeInfo;
