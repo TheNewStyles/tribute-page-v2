@@ -7,7 +7,7 @@ import { TributeLink } from './TributeLink';
 export class Main extends Component {  
     render() {
       return (
-        <div id="main">
+        <div className="background-green" id="main">
           <Header/>
           <section>            
             <Image/>

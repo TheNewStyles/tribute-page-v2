@@ -1,2 +1,151 @@
+body {
+    font-size: 100%;   
+    Font-Family: 'Cabin', Sans-Serif;
+}
 
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+    font-size-adjust: 0.5;
+}
+    
+#page {
+    font-size: 1em;
+    /* equivalent to 16px */
+    line-height: 1.25;
+    /* equivalent to 20px */
+}
 
+h1, h2, h3, h4 {
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+}
+    
+h1 {
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25;
+    /* 45px / 36px */
+}
+
+h2 {
+    font-size: 1.625em;
+    /* 1.625x body copy size = 26px */
+    line-height: 1.15384615;
+    /* 30px / 26px */
+}
+  
+h3 {
+    font-size: 1.375em;
+    /* 1.375x body copy size = 22px */
+    line-height: 1.13636364;
+    /* 25px / 22px */
+}
+  
+h4 {
+    font-size: 1.125em;
+    /* 1.125x body copy size = 18px */
+    line-height: 1.11111111;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+  
+blockquote {
+    font-size: 1.25em;
+    /* 20px / 16px */
+    line-height: 1.25;
+    /* 25px / 20px */
+}
+  
+@media (min-width: 43.75em) {
+    body {
+        font-size: 1em;
+        /* equivalent to 16px */
+        line-height: 1.375;
+        /* equivalent to 22px */
+    }
+
+    h1 {
+        font-size: 2.5em;
+        /* 2.5x body copy size = 40px */
+        line-height: 1.125;
+    }
+
+    h2 {
+        font-size: 2em;
+        /* 2x body copy size = 32px */
+        line-height: 1.25;
+    }    
+
+    h3 {
+        font-size: 1.5em;
+        /* 1.5x body copy size = 24px */
+        line-height: 1.25;
+    }
+
+    h4 {
+        line-height: 1.22222222;
+        /* (22px / 18px */
+    }
+
+    blockquote {
+        font-size: 1.5em;
+        /* 24px / 16px = */
+        line-height: 1.45833333;
+        /* 35px / 24px */
+    }
+}
+
+@media (min-width: 56.25em) {
+    h1 {
+        font-size: 3em;
+        /* 3x body copy size = 48px */
+        line-height: 1.05;
+        /* keep to a multiple of the 20px line height and something more appropriate for display headings */
+    }
+    
+    h2 {
+        font-size: 2.25em;
+        /* 2.25x body copy size = 36px */
+        line-height: 1.25;
+    }
+
+    h3 {
+      font-size: 1.75em;
+      /* 1.75x body copy size = 28px */
+      line-height: 1.25;
+    }    
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 900px;    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.flex-item {
+    align-self: center;
+    justify-self: center;
+    max-width: 100%;
+}
+
+.background-green {
+    background-color: #F7F5EA;
+    color: #343A33;
+}
+
+p {
+    text-align: center;    
+}
+
+.margin-bottom {
+    margin-bottom: 25px;
+}
