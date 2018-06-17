@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 
 export class TributeInfo extends Component {  
-    render() {
+
+  saySomething(i, n) {
+    return i+n;
+  }  
+  
+  render() {
       return (        
         <article>
               <div id="tribute-info" className="flex-container">

@@ -11,10 +11,17 @@ describe('<Header />', () => {
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  it('find title', () => {
-    const wrapper = shallow(<Header />);
+  it('renders h1 title', () => {
+    const header = shallow(<Header />);
     const title = <h1 id="title" className="flex-item">Bill Gates</h1>;
-    expect(wrapper).toContainReact(title);
+    expect(header).toContainReact(title);
   });
 
+  if('renders sub title', () => {
+    const header = shallow(<Header />);
+    const subTitle = <div className="flex-item"><p> Business Leader, Entrepreneur, Philanthropist</p></div>;
+    expect(header).toContainReact(subTitle);
+  });
+  
 });
+
