@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 
 export class TributeInfo extends Component {  
-
-  saySomething(i, n) {
-    return i+n;
-  }  
-  
   render() {
       return (        
         <article>

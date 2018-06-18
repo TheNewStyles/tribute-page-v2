@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { shallow } from 'enzyme';
 
 export class TributeLink extends Component {     
     render() {
